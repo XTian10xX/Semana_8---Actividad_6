@@ -42,12 +42,12 @@ public class Main3 {
       private static void calcularTriangulo(Scanner scanner) {
           int opcion = 1;
           for (int iD = 0; iD <= 0; iD++) {
-            System.out.println("Ingresa la base del triángulo:");
-            double base = scanner.nextDouble();
-            System.out.println("Ingresa la altura del triángulo:");
-            double altura = scanner.nextDouble();
-            double area = (base * altura) / 2;
-            System.out.println("El área del triángulo es: " + area);
+         System.out.println("Ingresa la base del triángulo:");
+         double base = scanner.nextDouble();
+         System.out.println("Ingresa la altura del triángulo:");
+         double altura = scanner.nextDouble();
+         double area = (base * altura) / 2;
+         System.out.println("El área del triángulo es: " + area);
           }
         }
     
@@ -58,8 +58,8 @@ public class Main3 {
           double lado = scanner.nextDouble();
           double area = lado * lado;
           System.out.println("El área del cuadrado es: " + area);
+         }
         }
-      }
     
       private static void calcularRectangulo(Scanner scanner) {
         int opcion = 3;
@@ -70,17 +70,16 @@ public class Main3 {
           double altura = scanner.nextDouble();
           double area = base * altura;
           System.out.println("El área del rectángulo es: " + area);
+         }
         }
-      }
     
       private static void calcularCirculo(Scanner scanner) {
         int opcion = 4;
         for (int iD = 0; iD <= 0; iD++) {
-          System.out.println("Ingresa el radio del círculo:");
-          double radio = scanner.nextDouble();
-          double area = Math.PI * radio * radio;
-          System.out.println("El área del círculo es: " + area);
+         System.out.println("Ingresa el radio del círculo:");
+         double radio = scanner.nextDouble();
+         double area = Math.PI * radio * radio;
+         System.out.println("El área del círculo es: " + area);
         }
-    
     }
 }
