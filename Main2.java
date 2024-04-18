@@ -36,9 +36,8 @@ public class Main2 {
             }
         } while (max_intentos != 0);
         {
-            System.out
-                    .println("Lo siento, te quedaste sin intentos. El número aleatorio era " + numeroSecretoAleatorio);
-        }
-        scanner.close();
+        System.out.println("Lo siento, te quedaste sin intentos. El número aleatorio era " + numeroSecretoAleatorio);
     }
+    scanner.close();
+ }
 }
